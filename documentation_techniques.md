@@ -1,5 +1,5 @@
 ---
-layout: documentationtech
+layout: documentation_technique
 title: Documentation Technique Notes
 ---
 
