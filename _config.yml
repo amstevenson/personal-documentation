@@ -1,5 +1,4 @@
+theme: jekyll-theme-cayman
 collections:
   examples:
     output: true
-
-theme: jekyll-theme-cayman
