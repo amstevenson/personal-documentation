@@ -2,4 +2,4 @@
 layout: example
 ---
 
-# Initial examples page
+Test
