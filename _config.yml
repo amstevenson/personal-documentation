@@ -2,7 +2,6 @@ title: [Personal Documentation]
 description: [General Documention For Technical Related Matters]
 theme: jekyll-theme-cayman
 baseurl: /personal-documentation
-show_downloads: ["false"]
 collections:
   examples:
     output: true
