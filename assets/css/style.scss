@@ -2,20 +2,17 @@
 ---
 
 #wrapper {
-     width: 1005px;
+     width: 1200px;
      margin: 0 auto;
 }
-#leftcolumn, #rightcolumn {
+#leftcolumn {
+    padding: 2rem 0rem;
     border: 1px solid white;
     float: left;
     min-height: 450px;
 }
 #leftcolumn {
      width: 250px;
-}
-
-#rightcolumn {
-     width: 750px;
 }
 
 @import "{{ site.theme }}";
