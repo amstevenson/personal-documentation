@@ -1,5 +1,5 @@
 ---
-layout: example
+layout: documentationtech
 title: Markdown
 ---
 
