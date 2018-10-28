@@ -3,15 +3,11 @@ layout: page
 ---
 <div>
 
-  <p>Contents:</p>
-
-  <ul>
+  <div style="border-bottom: solid 1px #eff0f1;">
     {% for example in site.examples %}
-    <li>
         <a href="{{site.baseurl}}{{example.url}}">{{ example.title }}</a>
-    </li>
     {% endfor %}
-  </ul>
+  </div>
 
   <h1>{{page.title}}</h1>
 
