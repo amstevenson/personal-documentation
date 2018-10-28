@@ -1,4 +1,9 @@
 ---
 ---
 
+@media screen and (max-width: 64em) and (min-width: 42em)
+.page-header {
+    padding: 2rem 4rem;
+}
+
 @import "{{ site.theme }}";
