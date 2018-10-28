@@ -8,11 +8,11 @@ layout: page
   <p>Links in the examples section: </p>
 
   <ul>
+    {% for example in site.examples %}
     <li>
-      {% for example in site.examples %}
         <a href="{{site.baseurl}}{{example.url}}">{{ example.title }}</a>
-      {% endfor %}
     </li>
+    {% endfor %}
   </ul>
 
   {{ content }}
