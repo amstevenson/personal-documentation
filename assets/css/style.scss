@@ -9,9 +9,8 @@
     border: 1px solid white;
     float: left;
     min-height: 200px;
-}
-#side-navigation {
-     width: 250px;
+    width: 250px;
+    text-align: center;
 }
 
 @import "{{ site.theme }}";
