@@ -1,0 +1,9 @@
+---
+layout: page
+title: Cookies
+---
+{% for example in site.examples %}
+	<div class="cookie">
+		<h2><a href="{{ example.url }}">{{ example.title }}</a></h2>
+	</div>
+{% endfor %}
