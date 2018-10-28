@@ -4,6 +4,10 @@ layout: page
 <div>
   {{ content }}
 
+  {% for example in site.examples %}
+    <a href="{{site.baseurl}}{{example.url}}">{{ example.title }}</a>
+  {% endfor %}
+
   {{ page.title }}
 
 </div>
