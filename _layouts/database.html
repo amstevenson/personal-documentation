@@ -1,0 +1,16 @@
+---
+layout: page
+---
+<div>
+
+  <div class="top-nav">
+    {% for database in site.databases %}
+        <a href="{{site.baseurl}}{{database.url}}">{{ database.title }}</a>
+    {% endfor %}
+  </div>
+
+  <h1>{{page.title}}</h1>
+
+  {{ content }}
+
+</div>

@@ -5,3 +5,5 @@ baseurl: /personal-documentation
 collections:
   examples:
     output: true
+  databases:
+    output: true
