@@ -4,8 +4,10 @@ layout: example
 
 <h1>Initial examples page</h1>
 
-{% for example in site.examples %}
-<div>
-    <h2>{{ example.title }}</a></h2>
-</div>
-{% endfor %}
+<nav>
+    <ul>
+        {% for example in site.examples %}
+        <li><a href="{{example.url}}">{{ example.title }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
