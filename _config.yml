@@ -3,7 +3,7 @@ description: [General Documention For Technical Related Matters]
 theme: jekyll-theme-cayman
 baseurl: /personal-documentation
 collections:
-  documentation_techniques:
+  documentationtechs:
     output: true
   databases:
     output: true
