@@ -4,6 +4,8 @@ You can use the [editor on GitHub](https://github.com/amstevenson/personal-docum
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+View frontend [here](https://amstevenson.github.io/personal-documentation/)
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
