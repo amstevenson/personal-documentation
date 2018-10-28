@@ -7,5 +7,5 @@ collections:
     output: true
   databases:
     output: true
-  webops_docs:
+  webop_docs:
     output: true
