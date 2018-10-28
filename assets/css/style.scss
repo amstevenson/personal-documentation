@@ -9,16 +9,13 @@
     border: 1px solid white;
     float: left;
     min-height: 450px;
-    color: white;
 }
 #leftcolumn {
      width: 250px;
-     background-color: #111;
 }
 
 #rightcolumn {
      width: 750px;
-     background-color: #777;
 }
 
 @import "{{ site.theme }}";
