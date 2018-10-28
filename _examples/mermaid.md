@@ -2,4 +2,7 @@
 layout: example
 title: Mermaid
 ---
-## Mermaid Examples
+
+Some text related to this mermaid
+
+### A H3. Hopefully. 

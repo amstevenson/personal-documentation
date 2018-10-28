@@ -2,7 +2,6 @@
 layout: example
 title: Markdown
 ---
-## Markdown Examples
 
 ```
     <div id="side-navigation">
