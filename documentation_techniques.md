@@ -1,6 +1,6 @@
 ---
 layout: documentation_technique
-title: Documenting - Examples
+title: Documentation Technique Notes
 ---
 
 Markup and Mermaid specific notes.
