@@ -3,11 +3,17 @@ layout: page
 ---
 <div>
 
-  {% for example in site.examples %}
-  <div style="block;"><a href="{{site.baseurl}}{{example.url}}">{{ example.title }}</a></div>
-  {% endfor %}
-
   <h1>{{page.title}}</h1>
+
+  <p>Links in this section: </p>
+
+  <ul>
+    <li>
+      {% for example in site.examples %}
+        <a href="{{site.baseurl}}{{example.url}}">{{ example.title }}</a>
+      {% endfor %}
+    </li>
+  </ul>
 
   {{ content }}
 
