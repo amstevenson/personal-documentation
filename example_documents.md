@@ -2,4 +2,4 @@
 layout: example
 ---
 
-# Initial first page
+# Initial example page
