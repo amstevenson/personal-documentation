@@ -1,0 +1,16 @@
+---
+layout: page
+---
+<div>
+
+  <div class="top-nav">
+    {% for documentation_techique in site.documentation_techiques %}
+        <a href="{{site.baseurl}}{{documentation_techique.url}}">{{ documentation_techique.title }}</a>
+    {% endfor %}
+  </div>
+
+  <h1>{{page.title}}</h1>
+
+  {{ content }}
+
+</div>
